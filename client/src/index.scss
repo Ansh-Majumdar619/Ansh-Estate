@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: quick;
+  src: url('Quicksand-VariableFont_wght.ttf');
+}
+
+body{
+  // font-family: "Lato", sans-serif;
+  font-family: quick;
+  font-weight: 500;
+  overflow: hidden;
+  background-color: #E7EF84;
+}
